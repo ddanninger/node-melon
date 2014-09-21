@@ -6,8 +6,10 @@ A unoffical node.js wrapper for the SK planet Melon API (www.melon.com)
 See API Information on: https://developers.skplanetx.com/apidoc/eng/melon/
 
 ```
-var api = new Melon("APIKEY");
-api.SearchArtists("싸이",10,1,function(success,data) {
+var Melon = require('melon');
+
+var api = new Melon('APIKEY');
+api.SearchArtists('싸이',10,1,function(success,data) {
 	console.log(data.melon);
 });
 ```
