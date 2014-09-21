@@ -1,9 +1,12 @@
 {
-  "name": "node-melon",
+  "name": "melon",
   "version": "0.0.1",
   "description": "A unoffical node.js wrapper for the SK planet Melon API",
   "keywords": [
-  	"gracenote"
+  	"melon",
+  	"skplanet",
+  	"music",
+  	"korea"
   ],
   "author": "Dominik Danninger <ddanninger@gmail.com>",
   "main": "./lib/Melon",
@@ -16,6 +19,10 @@
   },
   "directories": {
     "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ddanninger/node-melon.git"
   },
   "devDependencies": {}
 }
