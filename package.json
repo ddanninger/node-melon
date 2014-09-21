@@ -1,0 +1,21 @@
+{
+  "name": "node-melon",
+  "version": "0.0.1",
+  "description": "A unoffical node.js wrapper for the SK planet Melon API",
+  "keywords": [
+  	"gracenote"
+  ],
+  "author": "Dominik Danninger <ddanninger@gmail.com>",
+  "main": "./lib/Melon",
+  "dependencies": {
+      "request": "*",
+      "querystring": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
+}
